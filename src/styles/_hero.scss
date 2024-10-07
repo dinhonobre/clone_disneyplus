@@ -7,8 +7,15 @@
     text-align: center;
     background-size: cover;
     display: grid;
+<<<<<<< HEAD
     background-size: contain;
 
+=======
+    grid-template-columns: 1fr 1fr;
+    background-size: contain;
+
+
+>>>>>>> master
     &__content {
         max-width: 640px;
 
