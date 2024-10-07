@@ -1,11 +1,14 @@
 @use 'variaveis';
 
 .footer {
+    padding: 26px 8px;
+
     &__container {
         max-width: 1024px;
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        padding-bottom: 20px;
     }
 
     &__logo {
@@ -15,22 +18,52 @@
 
     &__link {
         margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
         &__item {
-            display: inline-block;
+            display: inline-block;  
 
             a {
                 text-decoration: none;
                 padding: 8px 16px;
                 display: block;
-            }
-            
+
             &:hover {
                 color: variaveis.$corTextoSecundario;
+            }
             }
         }
     }
 
     p {
+        margin-top: 36px;
         margin-bottom: 16px;
+    }
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    img {
+        height: 18px;
+        width: 18px;
+    }
+
+    select {
+        background-color: transparent;
+        border: none;
+        color: variaveis.$corTextoPrimario;
+        height: 38px;
+
+        &:hover {
+            color: variaveis.$corTextoSecundario;
+        }
+
+        option {
+            color: variaveis.$corDeFundo;
+        }
     }
 }
