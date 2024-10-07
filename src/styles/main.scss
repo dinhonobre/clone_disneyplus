@@ -2,11 +2,9 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
-<<<<<<< HEAD
-=======
 @use 'available-devices';
 @use 'faq';
->>>>>>> master
+@use 'footer';
 
 @font-face {
     font-family: Avenir;
@@ -87,10 +85,7 @@ body {
     margin-top: 2vw;
     margin-bottom: 8px;
     cursor: pointer;
-<<<<<<< HEAD
-=======
 }
-
 .image-text-section {
     padding: 5.6vw;
     display: grid;
@@ -128,5 +123,4 @@ body {
             left: 50%;
         }
     }
->>>>>>> master
 }
